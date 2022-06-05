@@ -32,7 +32,7 @@ function increase(number) {
 
 increase(number);
 console.log("====================================");
-console.log(number);
+console.log(number); // will log 10
 console.log("====================================");
 
 // Another example for Reference type
@@ -44,5 +44,9 @@ function increase(numberOne) {
 
 increase(numberOne);
 console.log("====================================");
-console.log(numberOne);
+console.log(numberOne); // will log 11
 console.log("====================================");
+
+// In summary:
+// Primitives are copied by their value
+// Objects are copied by their reference
