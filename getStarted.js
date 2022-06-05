@@ -28,3 +28,5 @@ let emplotee = {
   },
 };
 emplotee.getWage();
+
+// Abstraction
