@@ -35,7 +35,7 @@ const circleCreate = createCircle(1);
 
 // Constructor function
 function Circle(radius) {
-  console.log("this", this);
+  //   console.log("this", this);
   //this is a reference !
   this.radius = radius;
   this.draw = function () {
@@ -43,3 +43,6 @@ function Circle(radius) {
   };
 }
 const another = new Circle(1);
+
+// if there is return - Factory Function
+// if there is no return - it's a Constructor function
