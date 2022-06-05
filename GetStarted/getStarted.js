@@ -30,3 +30,5 @@ let emplotee = {
 emplotee.getWage();
 
 // Abstraction
+
+// Inheritance - helps us remove duplicated code
