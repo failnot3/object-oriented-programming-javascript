@@ -34,3 +34,15 @@ increase(number);
 console.log("====================================");
 console.log(number);
 console.log("====================================");
+
+// Another example for Reference type
+let numberOne = { valueOne: 10 };
+function increase(numberOne) {
+  // This numberOne is local to this function
+  numberOne.valueOne++;
+}
+
+increase(numberOne);
+console.log("====================================");
+console.log(numberOne);
+console.log("====================================");
